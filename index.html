@@ -1,0 +1,279 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="keywords" content="个人主页，个人网站，homepage，个人空间,染相公,风尘渐染">
+<title>风尘渐染</title>
+<style type="text/css">
+	::selection {
+		color: #fff;
+		background: red;
+	}
+	
+	*{
+		cursor: url(img/default.cur), pointer;
+	}
+    body{
+        background:#333;
+        //cursor:default;
+		color:#999;
+		font-size:11pt;
+    }
+    #body{
+        width:550px;
+        text-align: center;
+        position: absolute;
+        left: 50%;
+        top: 45%;
+        transform: translate(-50%, -50%);
+    }
+	p{
+		margin:0px;
+        padding:0px;
+		line-height:180%;
+        width:100%;
+        text-align:left;
+	}
+	.logostr{
+        font-size:30pt;
+        text-align:center;
+	}
+	.logostr span{
+       // cursor:hand;
+       // cursor:pointer;
+	}
+	.logostr span:hover{   
+	}
+	.logostr span span{
+        font-size:60pt;
+        font-weight:bold;
+	}
+	hr{
+		color:white;
+		margin-bottom:15px;
+	}
+	#text{
+		margin-top:40px;
+		margin-bottom:40px;
+	}
+	#text p{
+		margin-bottom:15px;
+		font-size:11pt;
+	}
+	#menu{
+	
+	}
+	ul{
+		list-style: none;
+		margin: 0px;
+		padding: 0px;
+		text-align:center;
+		margin-top:20px;
+	}
+	li{
+		list-style: none;
+		border-radius: 10px;
+		padding-left:10px;
+		padding-right:10px;
+		text-align: center;
+		height: 30px;
+		line-height: 30px;
+		position: relative;
+		display: inline-block;
+	}
+		a:visited,a:link,li,.logostr span,.yellow{
+		color:yellow;
+	}
+	.red{color:red;font-size:18pt;}
+	.green{color:#0aa284}
+	.ahover:hover{text-shadow: #fff 0.1em 0.1em 0.2em;}
+	a{text-decoration:none;}
+</style>
+</head>
+<body >
+<style type="text/css">
+/*--start alert模拟弹出窗口样式 --*/
+
+/*--整体窗口--*/
+#top_call{
+
+	width:800px;
+	border:2px solid #666;
+
+	margin:0px;
+	padding:0px;
+	position:fixed;
+	
+	top:50%;
+	left:50%;
+	transform:translate(-50%, -50%);
+	z-index:100000000000002;
+	display:block;
+	border-radius:5px;
+
+	color:#999;
+
+	box-shadow: 5px 5px 2px #333;
+
+}
+
+/*--窗口右侧关闭按钮--*/
+#call_butt{
+	position:absolute;
+	right:0px;
+	top:0px;
+	width:36px;
+	height:36px;
+	line-height:36px;text-align:center;
+	display:table;
+	border-radius:2px;
+	background:#333;
+	z-index:100000000000001;
+}
+
+/*--窗口标题栏--*/
+#call_title{
+	border-bottom:1px solid #cccccc;
+	height:36px;
+	line-height:36px;
+	font-size:14px;
+	background:#222;
+	padding-left:10px;
+}
+
+/*--提示字符区--*/
+#dis_path{
+	background:#333;
+	text-align;left;
+	color:#eee;
+	word-wrap: break-word; 
+	word-break: normal;
+	overflow:hidden;
+	overflow-y:scroll;
+	height:500px;
+	line-height:180%;
+
+	width:780px;
+	border:none;
+	padding:10px;
+	resize:none;
+	font-size:11pt;
+	font-family: "SF Pro SC","SF Pro Text","SF Pro Icons","PingFang SC", Verdana, Arial, '微软雅黑','宋体';
+	}
+::-webkit-scrollbar {
+    width: 36px;
+	height:500px;
+}
+::-webkit-scrollbar-button {
+    background: #444
+}
+::-webkit-scrollbar-track-piece {
+    background: #444;
+}
+::-webkit-scrollbar-thumb {
+    background: #444
+}​
+
+
+
+/*--end alert模拟弹出窗口样式 --*/
+</style>
+<div id="top_call">
+	<div id="call_butt" onclick="this.parentNode.style.display='none'">X</div>
+	<div style="position:absolute;top:-126px;left:87px;">
+	<!--<img src="page_img\tagimg\callwintop.png">-->
+	</div>
+	<div id="call_title"></div>
+	<div id="dis_path" >
+	&nbsp;&nbsp;&nbsp;&nbsp;2001年我和一个发小第一次去县城里的一家网吧上网，那时候不会老板是包教的，我第一网上聊天用的不是QQ，而是县里一个网站建的聊天室，
+	
+	</div>
+
+</div>
+	<audio id="bgaudio" src="audio/Brothers Unite.mp3" loop  autoplay  hidden></audio>
+	<div id="body">
+    <p class="logostr yellow"><span><span>风</span>尘渐染 </span></p>
+    <hr>
+	<div id="text">
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;我只是希望，网络上再也找不到个人主页时，这里有最后一个......。</p>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;愿你我同类，让更多人永远心怀<span class="red">自已的</span>梦想，活有<span class="red">自已的</span>价值！！！</p>
+	</div>
+	<p>&nbsp;&nbsp;&nbsp;&nbsp;star：2021年11月19日</p>
+    <p>&nbsp;&nbsp;&nbsp;&nbsp;Run：<span id="startdate">2021年11月19日</span>--@<span id="nowdate"></span> （已运行<span id="dayed"></span>天）</p>
+	<script language="javascript">
+		nowdate_node=document.getElementById("nowdate");
+		startdate_node=document.getElementById("startdate");
+		dayed_node=document.getElementById("dayed");
+		startdate_format="2021-11-19";		
+		function addzero(numstr){
+			numstr+="";
+			if(numstr.length<2){return "0"+numstr}else{return numstr};
+		}
+		var d = new Date();		
+		ystr=d.getFullYear();
+		mstr=d.getMonth()+1;
+		dstr=d.getDate();
+		nowdate_node.innerHTML=ystr+"年"+addzero(mstr)+"月"+addzero(dstr)+"日";
+		nowdate_format=ystr+"-"+mstr+"-"+dstr;
+		//计算天数差的函数，通用 (网络copy)
+		function  DateDiff(sDate1,  sDate2){    //sDate1和sDate2是2002-12-18格式 
+		   var  aDate,  oDate1,  oDate2,  iDays 
+		   aDate  =  sDate1.split("-") 
+		   oDate1  =  new  Date(aDate[1]  +  '-'  +  aDate[2]  +  '-'  +  aDate[0])    //转换为12-18-2002格式 
+		   aDate  =  sDate2.split("-") 
+		   oDate2  =  new  Date(aDate[1]  +  '-'  +  aDate[2]  +  '-'  +  aDate[0]) 
+		   iDays  =  parseInt(Math.abs(oDate1  -  oDate2)  /  1000  /  60  /  60  /24)    //把相差的毫秒数转换为天数 
+		   return  iDays 
+		}
+		dayed_node.innerHTML=addzero(DateDiff(startdate_format,nowdate_format));
+	</script>
+	<p class="green">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;>>：<span id="time_lose" ></span></p>
+	<script language="javascript">
+		
+		var time_lose=document.getElementById("time_lose")
+		//计算一年还剩多少天小时分秒(网络copy修改)
+		function counter(elem) { 
+			var date = new Date(); 
+			var year = date.getFullYear(); 
+			var date2 = new Date(year, 11, 30, 23, 59, 59,999);//
+			/*转换成秒*/
+			var time = (date2 - date) / 1000; 
+			var day = Math.floor(time / (24 * 60 * 60)) 
+			var hour = Math.floor(time % (24 * 60 * 60) / (60 * 60)) 
+			var minute = Math.floor(time % (24 * 60 * 60) % (60 * 60) / 60); 
+			var second = Math.floor(time % (24 * 60 * 60) % (60 * 60) % 60); 
+			var str = year + "年还剩<font style='font-size:18px;'>" + addzero(day) + "</font>天" + addzero(hour) + "时" + addzero(minute) + "分" + addzero(second) + "秒"; 
+			elem.innerHTML=str;		
+		} 
+		counter(time_lose);
+		window.setInterval("counter(time_lose)", 1000);
+	</script>	
+    <p>E-mail：vimts@foxmail.com<span style="color:#0aa284">（请编写邮件前在此确认地址，有可能变动。）</span></p>
+	<p>公众号：染相公</p>
+	<div id="menu">
+		<ul>
+			<li>日志</li>
+			<li>相册</li>
+			<li class="ahover">><a href="homepage_zhngshi.html">个人主页收集</a><</li>
+			<li class="ahover" onclick="document.getElementById('top_call').style.display='block';">>此站<</li>
+
+			<li >鸣谢</li>
+			<li class="ahover" onclick="bgaudiopors(this)">>暂停音乐<</li>
+		</ul>
+	</div>
+	<script language="javascript">
+		function bgaudiopors(elem){
+			subelem=document.getElementById('bgaudio');
+			if(subelem.paused){
+				subelem.play();
+				elem.innerHTML="暂停音乐";
+			}else{
+				subelem.pause();
+				elem.innerHTML="继续播放";
+			}
+		}
+	</script>
+</div>
+</body>
+</html>
+				
